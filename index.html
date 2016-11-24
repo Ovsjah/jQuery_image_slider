@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Slider</title>
+    <link rel="stylesheet" href="css/slider.css">
+  </head>
+  
+  <body>
+  
+  <div class="wrapper">
+    <div id="slider">
+      <img id="1" src="images/13962790_1399067963454970_8740273480963616392_o.jpg">
+      <img id="2" src="images/chalcedony.jpg">
+      <img id="3" src="images/macaque.jpg">
+      <img id="4" src="images/monkey.jpg">
+    </div>
+    
+    <!-- creates an onclick event that runs function and returns false that refreshses browser -->
+    <a href="#" class="left" onclick="prev(); return false;">Previous</a>
+    <a href="#" class="right" onclick="next(); return false;">Next</a>
+  </div>
+  
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>
